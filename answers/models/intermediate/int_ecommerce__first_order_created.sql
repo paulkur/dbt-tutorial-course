@@ -28,3 +28,4 @@ SELECT
 
 FROM {{ ref('stg_ecommerce__orders') }}
 GROUP BY 1
+
