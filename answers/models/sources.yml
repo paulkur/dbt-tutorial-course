@@ -1,0 +1,29 @@
+version: 2
+
+sources:
+  - name: bigquery-public-data
+    schema: thelook_ecommerce
+    tables:
+      - name: orders
+        identifier: raw_orders
+        description: Thelook Ecommerce Orders table
+
+      - name: users
+        identifier: raw_users
+        description: Thelook Ecommerce Users table
+
+      - name: products
+        identifier: raw_products
+        description: Thelook Ecommerce Products table
+
+      - name: inventory_items
+        identifier: raw_inventory_items
+        description: Thelook Ecommerce inventory_items table
+
+      - name: order_items
+        identifier: raw_order_items
+        description: Thelook Ecommerce order_items table
+
+      - name: distribution_centers
+        identifier: raw_distribution_centers
+        description: Thelook Ecommerce Distribution Centers table
